@@ -1,0 +1,363 @@
+﻿
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+body {
+    padding: 20px 60px;
+    margin: 0;
+    font-family: "Mukta", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+    background-color: #f3f3f3;
+}
+
+
+
+@media (max-width: 991px) {
+    body {
+        padding-top: 87px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.content-wrapper {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}
+
+aside {
+    padding-right: 57px;
+    min-width: 240px;
+}
+
+@media (max-width: 767px) {
+    aside {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+
+aside .profile-img-wrapper {
+    text-align: center;
+}
+
+    aside .profile-img-wrapper img {
+        
+        height: 70%;
+        width: 70%;
+    }
+
+aside .profile-name {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+
+aside .profile-designation {
+    padding: 5px 25px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+aside .social-links {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+    aside .social-links .social-link {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 1;
+        color: #0067f6;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 8px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        margin-right: 4px;
+    }
+
+        aside .social-links .social-link:last-child {
+            margin-right: 0;
+        }
+
+aside .widget {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+    aside .widget .widget-title {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    aside .widget .widget-content {
+        font-size: 13px;
+    }
+
+        aside .widget .widget-content p {
+            margin-bottom: 5px;
+        }
+
+            aside .widget .widget-content p:last-of-type {
+                margin-bottom: 10px;
+            }
+
+    aside .widget.card {
+        border: 0;
+        border-radius: 10px;
+        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+    }
+
+        aside .widget.card .widget-title {
+            color: #0067f6;
+        }
+
+
+
+
+.btn-download-cv {
+    padding: 2px 25px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .badge {
+        transition: none;
+    }
+}
+
+a.badge:hover, a.badge:focus {
+    text-decoration: none;
+}
+
+.badge:empty {
+    display: none;
+}
+
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+}
+
+.badge-primary {
+    color: #ffffff;
+    background-color: #0067f6;
+}
+
+a.badge-primary:hover, a.badge-primary:focus {
+    color: #ffffff;
+    background-color: #0052c3;
+}
+
+a.badge-primary:focus, a.badge-primary.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 103, 246, 0.5);
+}
+
+.badge-secondary {
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+a.badge-secondary:hover, a.badge-secondary:focus {
+    color: #ffffff;
+    background-color: #545b62;
+}
+
+a.badge-secondary:focus, a.badge-secondary.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.badge-success {
+    color: #ffffff;
+    background-color: #28a745;
+}
+
+a.badge-success:hover, a.badge-success:focus {
+    color: #ffffff;
+    background-color: #1e7e34;
+}
+
+a.badge-success:focus, a.badge-success.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.badge-info {
+    color: #ffffff;
+    background-color: #17a2b8;
+}
+
+a.badge-info:hover, a.badge-info:focus {
+    color: #ffffff;
+    background-color: #117a8b;
+}
+
+a.badge-info:focus, a.badge-info.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+.badge-warning {
+    color: #0e0f0f;
+    background-color: #ffc107;
+}
+
+a.badge-warning:hover, a.badge-warning:focus {
+    color: #0e0f0f;
+    background-color: #d39e00;
+}
+
+a.badge-warning:focus, a.badge-warning.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+}
+
+.badge-danger {
+    color: #ffffff;
+    background-color: #dc3545;
+}
+
+a.badge-danger:hover, a.badge-danger:focus {
+    color: #ffffff;
+    background-color: #bd2130;
+}
+
+a.badge-danger:focus, a.badge-danger.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.badge-light {
+    color: #0e0f0f;
+    background-color: #f8f9fa;
+}
+
+a.badge-light:hover, a.badge-light:focus {
+    color: #0e0f0f;
+    background-color: #dae0e5;
+}
+
+a.badge-light:focus, a.badge-light.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+
+.badge-dark {
+    color: #ffffff;
+    background-color: #0e0f0f;
+}
+
+a.badge-dark:hover, a.badge-dark:focus {
+    color: #ffffff;
+    background-color: black;
+}
+
+a.badge-dark:focus, a.badge-dark.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(14, 15, 15, 0.5);
+}
+
+.badge-black {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+a.badge-black:hover, a.badge-black:focus {
+    color: #ffffff;
+    background-color: black;
+}
+
+a.badge-black:focus, a.badge-black.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.badge-white {
+    color: #0e0f0f;
+    background-color: #ffffff;
+}
+
+a.badge-white:hover, a.badge-white:focus {
+    color: #0e0f0f;
+    background-color: #e6e6e6;
+}
+
+a.badge-white:focus, a.badge-white.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

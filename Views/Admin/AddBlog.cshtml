@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutForAdmin.cshtml";
+
+    ViewData["Title"] = "AddBlog";
+}
+@model Blog
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3 border border-4 rounded rounded-3 p-4">
+            <h3 class="text-info text-center p-2 m-1">Add User</h3>
+            <form method="post" asp-action="AddBlog">
+                <div class="form-check">
+                    <input type="text" asp-for="BlogTitle" class="form-control" placeholder="Enter Blog Title" required />
+                    <span asp-validation-for="BlogTitle" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="datetime-local" asp-for="BlogDate" >
+                    <span asp-validation-for="BlogDate" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="text" asp-for="BlogDescription" class="form-control" required placeholder="Enter Blog Description" />
+                    <span asp-validation-for="BlogDescription" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="text" asp-for="BlogAuthor" class="form-control" required placeholder="Enter Blog Author" />
+                    <span asp-validation-for="BlogAuthor" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="text" asp-for="BlogCategory" class="form-control" required placeholder="Enter Blog Catagory" />
+                    <span asp-validation-for="BlogCategory" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="text" asp-for="BlogStatus" class="form-control" required placeholder="Enter Blog Status" />
+                    <span asp-validation-for="BlogStatus" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="number" asp-for="BlogView" class="form-control" required placeholder="Enter Blog Views" />
+                    <span asp-validation-for="BlogView" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="number" asp-for="BlogComment" class="form-control" required placeholder="Enter Blog comment" />
+                    <span asp-validation-for="BlogComment" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <input type="file" asp-for="BlogImage" class="form-control" required />
+                    <span asp-validation-for="BlogImage" class="text-danger"></span>
+                </div>
+                
+                
+                <div>
+                    <input type="submit" value="Save" class="btn btn-sm btn-primary m-2 p-2 float-end" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

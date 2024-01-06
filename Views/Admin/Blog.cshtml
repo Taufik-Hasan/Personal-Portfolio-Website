@@ -1,0 +1,75 @@
+﻿@{
+	Layout = "~/Views/Shared/_LayoutForAdmin.cshtml";
+}
+
+@model IEnumerable<Blog>
+
+<div class="container">
+    <div class="row">
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success notification alert-dismissible fade show" role="alert">
+                <strong>@TempData["Message"]</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+        else if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger notification alert-dismissible fade show" role="alert">
+                <strong>@TempData["ErrorMessage"]</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+        <div class="col-10 offset-1">
+            <div class="float-end">
+                <a asp-area="" asp-controller="Admin" asp-action="AddBlog" class="btn btn-primary">Add New Blog Post</a>
+            </div>
+            <table class="table table-hover table-striped table-bordered">
+                <thead class="text-center bg-dark text-light">
+                    <tr>
+                        <th>BlogID</th>
+                        <th>BlogTitle</th>
+                        <th>BlogAuthor</th>
+                        <th>BlogView</th>
+                        <th>BlogDate</th>
+                        <th>BlogStatus</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int i = 1;
+                    }
+                    @foreach (var item in Model)
+                    {
+
+                        <tr class="text-center">
+                            <td>@{i++;}</td>
+                            <td>@item.BlogTitle</td>
+                            <td>@item.BlogAuthor</td>
+                            <td>@item.BlogView</td>
+                            <td>@item.BlogDate</td>
+                            <td>
+                                @if (item.BlogStatus)
+                                {
+                                    <span class="text-success">Active</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">InActive</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-area="" asp-controller="Admin" asp-action="EditBlog" asp-route-id="@item.BlogID" class="btn btn-primary">Edit</a>
+                                <a asp-area="" asp-controller="Admin" asp-action="Details" asp-route-id="@item.BlogID" class="btn btn-info">Details</a>
+                                <a asp-area="" asp-controller="Admin" asp-action="Delete" asp-route-id="@item.BlogID" class="btn btn-danger" onclick="return confirm('Are you sure, you want to delete this user!')">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+

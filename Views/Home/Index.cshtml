@@ -1,0 +1,94 @@
+﻿@model Tuple<PersonalInformation, IEnumerable<Skill>,IEnumerable<Education>, IEnumerable<Experience>>
+@{
+    var item = Model.Item1;
+    var skills = Model.Item2;
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+
+<section class="intro-section">
+    <h2 class="section-title">Hello, This is @item.Name!</h2>
+    <p style="text-align: justify;">"@item.Objective"</p><br />
+    <a href="#!" class="btn btn-primary btn-hire-me">HIRE I AM</a>
+</section>
+<section class="resume-section">
+    <div class="row">
+        <div class="col-lg-6">
+            <br />
+            <h2 class="section-title">EDUCATION</h2>
+            <ul class="time-line">
+                @foreach (var education in Model.Item3)
+                {
+                    <li class="time-line-item">
+						<span class="badge badge-primary">@education.StartYear - @education.EndYear</span>
+						<h6 class="time-line-item-title">@education.Degree</h6>
+                        <p class="time-line-item-content">@education.Description</p>
+						<p class="time-line-item-subtitle">@education.Institute</p>
+						<p class="time-line-item-content">@education.Result</p>
+					</li>
+                }
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <br />
+            <h2 class="section-title">Experience</h2>
+            <ul class="time-line">
+                @foreach (var experience in Model.Item4)
+				{
+					<li class="time-line-item">
+                        <span class="badge badge-primary">@experience.StartYear - @experience.EndYear</span>
+                        <p class="time-line-item-subtitle">@experience.Duration</p>
+                        <h6 class="time-line-item-title">@experience.JobTitle</h6>
+                        <p class="time-line-item-subtitle">@experience.CompanyName</p>
+                        <p class="time-line-item-content">@experience.Description</p>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="services-section">
+    <h6 class="section-subtitle">WHAT I DO / DONE</h6>
+    <h2 class="section-title">SERVICES / PROJECT'S</h2>
+    <div class="row">
+        <div class="media service-card col-lg-6">
+            <div class="service-icon">
+                <img src="~/images/001-target.svg" alt="target">
+            </div>
+            <div class="media-body">
+                <h5 class="service-title">web designing</h5>
+                <p class="service-description">Service Description's'</p>
+            </div>
+        </div>
+        <div class="media service-card col-lg-6">
+            <div class="service-icon">
+                <img src="~/images/003-idea.svg" alt="bulb">
+            </div>
+            <div class="media-body">
+                <h5 class="service-title">Inovation</h5>
+                <p class="service-description">Project Description's</p>
+            </div>
+        </div>
+        <div class="media service-card col-lg-6">
+            <div class="service-icon">
+                <img src="~/images/002-development.svg" alt="development">
+            </div>
+            <div class="media-body">
+                <h5 class="service-title">Development</h5>
+                <p class="service-description">Service Description's'</p>
+            </div>
+        </div>
+        <div class="media service-card col-lg-6">
+            <div class="service-icon">
+                <img src="~/images/004-smartphone.svg" alt="smartphone">
+            </div>
+            <div class="media-body">
+                <h5 class="service-title">Mobile design</h5>
+                <p class="service-description">Project Description's'</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br/>
+<br />

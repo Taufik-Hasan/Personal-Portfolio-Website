@@ -1,0 +1,154 @@
+﻿@model Tuple<PersonalInformation, IEnumerable<Skill>,IEnumerable<Education>, IEnumerable<Experience>>
+@{
+    var item = Model.Item1;
+    var skills = Model.Item2;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Resume"] - Taufik_Hasan</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Taufik_Hasan.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-........" crossorigin="anonymous" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">@item.Name</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="~/images/Profile/@item.Image" alt="profile">
+            </div>
+            <h1 class="profile-name">@item.Name</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">@item.Profession</span>
+            </div>
+            <nav class="social-links">
+                <a href="@item.FbLink" target="_blank" title="Facebook" class="social-link" ><i class="fab fa-facebook"></i></a>
+                <a href="@item.TwiterLink" target="_blank" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="@item.LinkDinLink" target="_blank" title="LinkedIn" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </nav>
+            <div class="widget">
+                <h5 class="widget-title">Personal Information</h5>
+                <div class="widget-content">
+                    <p>BIRTHDAY : @item.DOB</p>
+                    <p>WEBSITE : @item.Website</p>
+                    <p>PHONE : @item.Phone</p>
+                    <p>MAIL : @item.Email</p>
+                    <button class="btn btn-download-cv btn-primary rounded-pill">
+                        <img src="~/images/download.svg" alt="download"
+                             class="btn-img">DOWNLOAD CV
+                    </button>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">Top Sills</h5>
+                        <table>
+                            
+							@foreach (var skill in skills)
+                            {
+								if (skill.Catagory == 1)
+								{
+									<tr>
+										<td>@skill.SkillName</td>
+										<td>
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" style="width: @skill.SkillLevel%;" aria-valuenow="@skill.SkillLevel" aria-valuemin="0" aria-valuemax="100">@skill.SkillLevel%</div>
+											</div>
+										</td>
+									</tr>
+								}
+                                    if (skill.Catagory == 2)
+                                    {
+                                        <tr>
+                                            <td>@skill.SkillName</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: @skill.SkillLevel%;" aria-valuenow="@skill.SkillLevel" aria-valuemin="0" aria-valuemax="100">@skill.SkillLevel%</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+
+							}
+							
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>Management</p>
+                        <p>Travelling</p>
+                        <p>Video games</p>
+                        <p>Eating</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <br />
+   
+
+    <footer class="border-top footer text-muted text-center">
+        <div class="container">
+            &copy; 2023 - Taufik_Hasan - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+        </div>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

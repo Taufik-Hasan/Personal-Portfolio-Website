@@ -1,0 +1,213 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/admin/style.css">
+	<link rel="stylesheet" href="~/css/admin/responsive.css">
+	
+
+</head>
+<body>
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Dashboard">
+				<div class="logo">Portfolio Admin</div>
+			</a>
+			<img src="~/images/admin/home.png" class="icn menuicn" id="menuicn" alt="menu-icon">
+		</div>
+
+		<div class="searchbar">
+			<input type="text" placeholder="Search">
+			<div class="searchbtn">
+				<img src="~/images/admin/search.png" class="icn srchicn" alt="search-icon">
+			</div>
+		</div>
+
+		<div class="message">
+			<div class="circle"></div>
+			<img src="~/images/admin/notification.png" class="icn" alt="">
+			<a style="text-decoration: none" class="" asp-area="" asp-controller="Admin" asp-action="Logout">
+				<div class="dp">
+					<img src="~/images/admin/logout.png" class="dpicn" alt="Logout">
+				</div>
+			</a>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Dashboard">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/dashboard.png" class="nav-img" alt="dashboard">
+									</td>
+									<td>
+										<h3>Dashboard</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="PersonalInformation">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/personalinformation.png" class="nav-img" alt="PersonalInformation">
+									</td>
+									<td>
+										<h3>Information</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Skill">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/skill.jpg" class="nav-img" alt="Skills">
+									</td>
+									<td>
+										<h3>Skills</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Education">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/education.jpg" class="nav-img" alt="Educations">
+									</td>
+									<td>
+										<h3>Educations</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Experience">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/experience.jpg" class="nav-img" alt="Experience">
+									</td>
+									<td>
+										<h3>Experience</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Project">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/project.jpg" class="nav-img" alt="Project">
+									</td>
+									<td>
+										<h3>Project</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Services">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/service.jpg" class="nav-img" alt="Services">
+									</td>
+									<td>
+										<h3>Services</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Blog">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/blog.png" class="nav-img" alt="Blog">
+									</td>
+									<td>
+										<h3>Blog</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Settings">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/setting.png" class="nav-img" alt="Settings">
+									</td>
+									<td>
+										<h3>Settings</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+					<a style="text-decoration: none" class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Logout">
+						<div class="option2 nav-option">
+							<table>
+								<tr>
+									<td style="padding-right: 25px">
+										<img src="~/images/admin/logout.png" class="nav-img" alt="Logout">
+									</td>
+									<td>
+										<h3>Logout</h3>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</a>
+
+				</div>
+			</nav>
+		</div>
+
+		<div class="main">
+			@RenderBody()
+		</div>
+
+
+	</div>
+
+	<script src="~/js/admin/index.js"></script>
+
+</body>
+</html>

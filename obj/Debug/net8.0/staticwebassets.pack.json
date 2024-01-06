@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Taufik Hasan.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Taufik Hasan.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\admin\\PersonalInformation.css",
+      "PackagePath": "staticwebassets\\css\\admin\\PersonalInformation.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\admin\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\admin\\responsive.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\admin\\style.css",
+      "PackagePath": "staticwebassets\\css\\admin\\style.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\001-target.svg",
+      "PackagePath": "staticwebassets\\images\\001-target.svg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\002-development.svg",
+      "PackagePath": "staticwebassets\\images\\002-development.svg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\003-idea.svg",
+      "PackagePath": "staticwebassets\\images\\003-idea.svg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\004-smartphone.svg",
+      "PackagePath": "staticwebassets\\images\\004-smartphone.svg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\Git-2.43.0-64-bit.exe",
+      "PackagePath": "staticwebassets\\images\\Admin\\Git-2.43.0-64-bit.exe"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\blog.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\blog.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\dashboard.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\dashboard.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\education.jpg",
+      "PackagePath": "staticwebassets\\images\\Admin\\education.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\experience.jpg",
+      "PackagePath": "staticwebassets\\images\\Admin\\experience.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\home.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\home.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\logout.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\logout.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\notification.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\notification.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\personalinformation.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\personalinformation.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\profile.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\profile.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\project.jpg",
+      "PackagePath": "staticwebassets\\images\\Admin\\project.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\search.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\search.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\service.jpg",
+      "PackagePath": "staticwebassets\\images\\Admin\\service.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\setting.png",
+      "PackagePath": "staticwebassets\\images\\Admin\\setting.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Admin\\skill.jpg",
+      "PackagePath": "staticwebassets\\images\\Admin\\skill.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Blog\\default.png",
+      "PackagePath": "staticwebassets\\images\\Blog\\default.png"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Profile\\Default.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\Default.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\Profile\\profile.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\profile.jpg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\images\\download.svg",
+      "PackagePath": "staticwebassets\\images\\download.svg"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\js\\admin\\index.js",
+      "PackagePath": "staticwebassets\\js\\admin\\index.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\project\\DotNet\\Taufik Hasan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Taufik Hasan.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Taufik Hasan.props",
+      "PackagePath": "build\\Taufik Hasan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Taufik Hasan.props",
+      "PackagePath": "buildMultiTargeting\\Taufik Hasan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Taufik Hasan.props",
+      "PackagePath": "buildTransitive\\Taufik Hasan.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

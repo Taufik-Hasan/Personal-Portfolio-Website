@@ -1,0 +1,245 @@
+﻿@{
+	Layout = "~/Views/Shared/_LayoutForAdmin.cshtml";
+}
+
+@model PersonalInformation
+
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<section class="intro-section">
+	<h2 class="section-title" style="text-align: justify; text-align:center;" >Personal Information </h2>
+</section>
+
+<section >
+	<table border="2"  width="100%">
+		<tr>
+			<th rowspan="6" width="305px">
+				<img src="~/images/Profile/@Model.Image" height="300px" width="300px">
+			</th>
+			<td>Name</td>
+			<td>@Model.Name</td>
+			<td>Phone</td>
+			<td>@Model.Phone</td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>@Model.Email</td>
+			<td>Website</td>
+			<td>@Model.Website</td>
+		</tr>
+		<tr>
+			<td>Facebook</td>
+			<td>@Model.FbLink</td>
+			<td>LinkDin</td>
+			<td>@Model.LinkDinLink</td>
+		</tr>
+		<tr>
+			<td>Twiter</td>
+			<td>@Model.TwiterLink</td>
+			<td>Address</td>
+			<td>@Model.PresentAddress</td>
+		</tr>
+		
+		
+	</table>
+
+</section>
+<br />
+<section class="intro-section">
+	<h2 class="section-title" style="text-align: justify; text-align:center;">Update Information </h2>
+</section>
+
+<section>
+	
+	<div class="container">
+		<div class="row">
+			@if (TempData["Message"] != null)
+			{
+				<div class="alert alert-success notification alert-dismissible fade show" role="alert">
+					<strong>@TempData["Message"]</strong>
+					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+			}
+			else if (TempData["ErrorMessage"] != null)
+			{
+				<div class="alert alert-danger notification alert-dismissible fade show" role="alert">
+					<strong>@TempData["ErrorMessage"]</strong>
+					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+			}
+			<div class="col-9 offset-1 border border-4 rounded rounded-3 p-4">
+				<form method="post" asp-action="PersonalInformation">
+					<table>
+						<tr>
+							<td>
+								<label asp-for="Image">Image</label>
+							</td>
+							<td>
+								<input type="file" asp-for="Image" class="form-control" value="@Model.Image" required />
+								<span asp-validation-for="Image" class="text-danger"></span>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>
+								<label asp-for="Name">Name</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="Name" class="form-control" required placeholder="Enter Name" />
+									<input type="hidden" asp-for="UserID" />
+									<span asp-validation-for="Name" class="text-danger"></span>
+								</div>
+							</td>
+							<td>
+							<td>
+								<label asp-for="Email">Email</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="email" asp-for="Email" class="form-control" placeholder="Enter Email" />
+									<span asp-validation-for="Email" class="text-danger"></span>
+								</div>
+							</td>
+							<td></td>
+						
+						</tr>
+						<tr>
+							<td>
+								<label asp-for="Phone">Phone</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="Phone" class="form-control" placeholder="Enter Phone Number" />
+									<input type="hidden" asp-for="Phone" />
+									<span asp-validation-for="Phone" class="text-danger"></span>
+								</div>
+							</td>
+							<td>
+							<td>
+								<label asp-for="DOB">BirthDay</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="DOB" class="form-control" placeholder="Enter Birthday" />
+									<span asp-validation-for="DOB" class="text-danger"></span>
+								</div>
+							</td>
+							<td></td>
+
+						</tr>
+						<tr>
+							<td>
+								<label asp-for="Name">Present Address</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="PresentAddress" class="form-control" placeholder="Enter Present Address" />
+									<input type="hidden" asp-for="UserID" />
+									<span asp-validation-for="PresentAddress" class="text-danger"></span>
+								</div>
+							</td>
+							<td>
+							<td>
+								<label asp-for="PermanentAddress">Permanent Address</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="PermanentAddress" class="form-control" placeholder="Enter Permanent Address" />
+									<span asp-validation-for="PermanentAddress" class="text-danger"></span>
+								</div>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>
+								<label asp-for="Website">Website</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="Website" class="form-control" placeholder="Enter Website" />
+									<input type="hidden" asp-for="Website" />
+									<span asp-validation-for="Website" class="text-danger"></span>
+								</div>
+							</td>
+							<td>
+							<td>
+								<label asp-for="FbLink">Facebook</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="FbLink" class="form-control" placeholder="Enter Fb Link " />
+									<span asp-validation-for="FbLink" class="text-danger"></span>
+								</div>
+							</td>
+							<td></td>
+
+						</tr>
+						<tr>
+							<td>
+								<label asp-for="LinkDinLink">LinkDin</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="LinkDinLink" class="form-control" placeholder="Enter LinkDin Link" />
+									<input type="hidden" asp-for="LinkDinLink" />
+									<span asp-validation-for="LinkDinLink" class="text-danger"></span>
+								</div>
+							</td>
+							<td>
+							<td>
+								<label asp-for="TwiterLink">Twiter</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="TwiterLink" class="form-control" placeholder="Enter Twiter Link " />
+									<span asp-validation-for="TwiterLink" class="text-danger"></span>
+								</div>
+							</td>
+							<td></td>
+
+						</tr>
+						<tr>
+							<td>
+								<label asp-for="Objective">Objective</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="Objective" class="form-control" placeholder="Enter LinkDin Link" />
+									<input type="hidden" asp-for="Objective" />
+									<span asp-validation-for="Objective" class="text-danger"></span>
+								</div>
+							</td>
+							<td>
+							<td>
+								<label asp-for="Profession">Profession</label>
+							</td>
+							<td>
+								<div class="form-check">
+									<input type="text" asp-for="Profession" class="form-control" required placeholder="Enter Profession" />
+									<input type="hidden" asp-for="Profession" />
+									<span asp-validation-for="Profession" class="text-danger"></span>
+								</div>
+							</td>
+
+						</tr>
+					</table>
+					<div>
+						<input type="submit" value="Update" class="btn btn-sm btn-warning m-2 p-2 float-end" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div>
+		<a asp-area="" asp-controller="" asp-action="" asp-route-id="@Model.UserID" class="btn btn-danger" onclick="return confirm('Are you sure, you want to delete this user!')">Back To Default USER</a>
+    </div>
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+	
+</section>
+
